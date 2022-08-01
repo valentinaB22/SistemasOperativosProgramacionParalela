@@ -10,6 +10,7 @@ Ubuntu: http://ferestrepoca.github.io/paradigmas-de-programacion/paralela/tutori
 http://ferestrepoca.github.io/paradigmas-de-programacion/paralela/tutoriales/openmp/instalacion_03.html 
 
 MAC: correr los siguientes comandos en la consola
+
 brew install llvm  
 brew install libomp
 	

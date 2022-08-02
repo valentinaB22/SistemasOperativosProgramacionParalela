@@ -17,6 +17,8 @@ MAC: Correr los siguientes comandos en la consola
 	brew install libomp
 
 En los códigos paralelos se puede modificar la cantidad de threads a utilizar. Para ello es necesario modificar el valor x de la función omp_set_num_threads(x) que se encuentra en el main para ambos algoritmos.
+
+Tambien es posible modificar la dimension del arreglo. Para ello se puede editar en la linea 5, la variable dim. 
  
 Para ejecutar los códigos se puede hacer desde la consola o con un IDE. 
 

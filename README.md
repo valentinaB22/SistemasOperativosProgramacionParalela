@@ -10,13 +10,11 @@ Ubuntu:
 
 http://ferestrepoca.github.io/paradigmas-de-programacion/paralela/tutoriales/openmp/instalacion_02.html http://ferestrepoca.github.io/paradigmas-de-programacion/paralela/tutoriales/openmp/instalacion_03.html
 
-MAC: 
+MAC: Correr los siguientes comandos en la consola
 
-correr los siguientes comandos en la consola
+	brew install llvm
 
-brew install llvm
-
-brew install libomp
+	brew install libomp
 
 En los códigos paralelos se puede modificar la cantidad de threads a utilizar. Para ello es necesario modificar el valor x de la función omp_set_num_threads(x) que se encuentra en el main para ambos algoritmos.
  
@@ -29,19 +27,19 @@ Consola:
 
 Windows:
 
-	Compilar: gcc -fopenmp archivo.c -o nombre.exe
+	gcc -fopenmp archivo.c -o nombre.exe
 	
-	Ejecutar: nombre.exe
+	nombre.exe
 	
 Ubuntu:
 
-	Compilar: gcc -fopenmp archivo.c -o nombre.exe
+	gcc -fopenmp archivo.c -o nombre.exe
 	
-	Ejecutar: nombre.exe
+	./nombre.exe
 	
 Mac: 
 
-	Compilar: gcc-11 -fopenmp archivo.c -o nombre
+	gcc-11 -fopenmp archivo.c -o nombre
 	
-	Ejecutar: ./nombre
+	./nombre
 
